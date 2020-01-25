@@ -1,0 +1,106 @@
+
+body{
+  font-family: 'Open Sans', sans-serif;
+  background-color: #ffffff;
+  align-content: center;
+
+}
+
+.titulo {
+    width: 100%;
+    text-align: center;
+    margin-top: 40px;
+    font-size: 35px;
+}
+
+.card-title{
+  font-weight: bold;
+  font-size: 16px;
+}
+
+
+@media only screen and (max-width: 576px) {
+   h1.titulo {
+   font-size: 60px;
+   }
+  h5.card-title {
+  font-size: 17px;
+  }
+
+}
+
+
+/* ESTO ES LO QUE ESTOY PROBANDO
+main {
+  align-items: center;
+  align-content: center;
+align-self: center;
+}
+
+
+
+.card-deck{
+  align-items: center;
+  padding: 20px;
+  width: 100%;
+  }
+  */
+
+
+
+
+
+
+
+.card-deck .card {
+/*  display:inline-block;
+
+  font-size:16px; */
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  width:33%;
+  min-width:273px;
+}
+
+/*HASTA AQUI SON LAS TARJETAS*/
+
+.fucsia{
+  background-color: #e83e8c;
+  vertical-align: middle;
+}
+.footer-logo{
+  align-content: center;
+}
+.footer-bar{
+  padding-top: 53px;
+  padding-bottom: 53px;
+}
+.info{
+  background-color: #17a2b8;
+  font-weight: bold;
+  font-size: 40px;
+  height: 170px;
+  padding-top: 58px;
+  padding-left: 120px;
+  vertical-align: middle;
+}
+
+.icons-section{
+padding-left: 55px;
+;
+}
+
+/* Use esto para hacer aparecer los iconos cuando aun no encontraba el script
+ y lo estoy usando para darles formato*/
+
+.fab {
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+    vertical-align: middle;
+    padding-right: 30px;
+}
+
+/* probando las columnas */
